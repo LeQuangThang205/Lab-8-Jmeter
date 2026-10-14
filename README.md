@@ -1,7 +1,7 @@
 # Báo cáo Lab 8: Kiểm thử tải (Load Testing) với Apache JMeter
 
 **Họ và tên:** Lê Quang Thắng  
-
+**Môn học:** Đánh giá và kiểm định phần mềm
 **Mã sinh viên:** 23010236
 
 ---
@@ -18,10 +18,10 @@ Kịch bản được thiết lập để mô phỏng một nhóm người dùng
 - **Đường dẫn (Path):** `/`
 
 **Cấu hình Thread Group (Người dùng ảo):**
-- **Number of Threads (users):** 10 (Giả lập 10 người dùng truy cập)
-- **Ramp-up period (seconds):** 1 (Tạo ra 10 người dùng này trong vòng 1 giây)
-- **Loop Count:** 10 (Mỗi người dùng lặp lại thao tác 10 lần)
-- **Tổng số Request dự kiến:** 10 x 10 = 100 requests.
+- **Number of Threads (users):** 100 (Giả lập 100 người dùng truy cập)
+- **Ramp-up period (seconds):** 1 (Tạo ra 100 người dùng này trong vòng 1 giây)
+- **Loop Count:** 1 (Mỗi người dùng lặp lại thao tác 10 lần)
+- **Tổng số Request dự kiến:** 100 x 1 = 100 requests.
 
 ---
 
@@ -30,14 +30,12 @@ Kịch bản được thiết lập để mô phỏng một nhóm người dùng
 ### 3.1. Chi tiết các Request (View Results Tree)
 Tất cả các request gửi đi đều nhận được phản hồi thành công từ máy chủ (HTTP Status Code: 200 OK).
 
-![Ảnh chụp màn hình 2026-10-14 174839.png](Ảnh chụp màn hình 2026-10-14 174839.png)
-
+![View Results Tree](Ảnh%20chụp%20màn%20hình%202026-10-14%20174839.png)
 
 ### 3.2. Bảng thống kê tổng hợp (Summary Report)
 Dưới đây là bảng thống kê hiệu năng chi tiết sau khi hệ thống xử lý hoàn tất 100 requests:
 
-![Ảnh chụp màn hình 2026-10-14 174832.png](Ảnh chụp màn hình 2026-10-14 174832.png)
-
+![Summary Report](Ảnh%20chụp%20màn%20hình%202026-10-14%20174832.png)
 
 **Phân tích các chỉ số chính (Dựa trên kết quả đo):**
 - **Samples (Tổng số request):** 100
