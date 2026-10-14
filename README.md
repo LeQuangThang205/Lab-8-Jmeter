@@ -1,8 +1,8 @@
 # Báo cáo Lab 8: Kiểm thử tải (Load Testing) với Apache JMeter
 
 **Họ và tên:** Lê Quang Thắng  
-**Môn học:** [Tên môn học của bạn]  
-**Mã sinh viên:** [Nhập mã SV của bạn]  
+
+**Mã sinh viên:** 23010236
 
 ---
 
@@ -30,14 +30,14 @@ Kịch bản được thiết lập để mô phỏng một nhóm người dùng
 ### 3.1. Chi tiết các Request (View Results Tree)
 Tất cả các request gửi đi đều nhận được phản hồi thành công từ máy chủ (HTTP Status Code: 200 OK).
 
-![View Results Tree](link_anh_view_results_tree_của_bạn.png)
-*(Lưu ý: Thay thế `link_anh_view_results_tree_của_bạn.png` bằng đường dẫn ảnh thực tế trên repo)*
+![View Results Tree](Ảnh chụp màn hình 2026-10-14 174839.png)
+
 
 ### 3.2. Bảng thống kê tổng hợp (Summary Report)
 Dưới đây là bảng thống kê hiệu năng chi tiết sau khi hệ thống xử lý hoàn tất 100 requests:
 
-![Summary Report](link_anh_summary_report_của_bạn.png)
-*(Lưu ý: Thay thế `link_anh_summary_report_của_bạn.png` bằng đường dẫn ảnh thực tế trên repo)*
+![Summary Report](Ảnh chụp màn hình 2026-10-14 174832.png)
+
 
 **Phân tích các chỉ số chính (Dựa trên kết quả đo):**
 - **Samples (Tổng số request):** 100
