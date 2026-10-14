@@ -1,7 +1,6 @@
 # Báo cáo Lab 8: Kiểm thử tải (Load Testing) với Apache JMeter
 
 **Họ và tên:** Lê Quang Thắng  
-**Môn học:** Đánh giá và kiểm định phần mềm
 **Mã sinh viên:** 23010236
 
 ---
